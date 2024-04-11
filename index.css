@@ -1,0 +1,40 @@
+html {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: white;
+    color: white;
+}
+html a {
+    color: black;
+    text-decoration: none;
+    align-items: center;
+}
+html a:hover {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.indexpage {
+    margin: 50px;
+    text-align: center;
+}
+.list {
+    flex-direction: row;
+    display: flex;
+    flex: 0.2;
+
+    position:relative;
+}
+.list ul{
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: slategrey;
+    padding: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.header h1 {
+    font-size: 45px;
+    color: black;
+}
